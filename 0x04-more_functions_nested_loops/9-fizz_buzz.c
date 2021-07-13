@@ -21,7 +21,10 @@ void fizz_buzz(void)
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			if (i == 100)
+				printf("Buzz");
+			else
+				printf("Buzz ");
 		}
 		else
 			printf("%d ", i);
