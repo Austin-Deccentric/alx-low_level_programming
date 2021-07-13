@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdio.h>
+#include <math.h>
 /**
 * max_primefactor- Prints the largest prime factor of @n.
 * @n: Number of type long.
@@ -34,5 +36,20 @@ long max_primefactor(long n)
 		maxprimef = n;
 
 	return (maxprimef);
+}
+/**
+ * main- Entry point of Program.
+ * Return: ) (success).
+ */
+int main(void)
+{
+	long n, i;
+
+	n = 612852475143;
+
+	i = max_primefactor(n);
+	printf("%ld\n", i);
+
+	return (0);
 }
 
