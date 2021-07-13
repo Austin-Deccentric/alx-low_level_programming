@@ -2,7 +2,6 @@
 /**
 * print_line- Draw a straight line @n times
 * @n: Length of the line.
-
 */
 
 void print_line(int n)
