@@ -28,7 +28,16 @@ void fizz_buzz(void)
 	}
 
 	printf("\n");
+}
 
+/**
+ * main- Entry Point of program.
+ * Return: Always 0 (success).
+ */
+int main(void)
+{
+	fizz_buzz();
 
+	return (0);
 }
 
