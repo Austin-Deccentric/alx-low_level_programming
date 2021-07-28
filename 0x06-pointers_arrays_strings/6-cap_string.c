@@ -12,6 +12,8 @@ char *cap_string(char *str)
 	int i;
 	int seperator = 0;
 
+	str[0] -= 32;
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (is_seperator(str[i]))
